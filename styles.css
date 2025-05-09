@@ -1,81 +1,65 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GTA Modded Accounts</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .product-image {
+            display: block;
+            margin: 10px auto;
+            max-width: 300px;
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Modded GTA Accounts</h1>
+        <p>The best modded GTA accounts for you!</p>
+    </header>
+    
+    <section class="products">
+        <div class="product">
+            <h2>GTA Account Legacy</h2>
+            <p>A legacy account for ultimate GTA Online fun!</p>
+            <img src="assets/gta-legacy.jpg" alt="GTA Legacy Account" class="product-image">
+            <button class="buy-btn" onclick="window.location.href='https://ko-fi.com/s/abc1234567'">Buy</button>
+        </div>
+        
+        <div class="product">
+            <h2>GTA Account Enhanced</h2>
+            <p>An enhanced account with additional features for GTA Online.</p>
+            <img src="assets/gta-enhanced.jpg" alt="GTA Enhanced Account" class="product-image">
+            <button class="buy-btn" onclick="window.location.href='YOUR_PAYMENT_LINK'">Buy</button>
+        </div>
+        
+        <div class="product">
+            <h2>GTA Upgrade</h2>
+            <p>Upgrade your existing account to unlock all features.</p>
+            <img src="assets/gta-upgrade.jpg" alt="GTA Upgrade" class="product-image">
+            <button class="buy-btn" onclick="window.location.href='https://discord.gg/wDA9KwrxWg'">Buy</button>
+        </div>
+    </section>
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-}
+    <section class="contact">
+        <h2>Contact</h2>
+        <p>Got questions? Join my Discord!</p>
+        <button class="discord-btn" onclick="window.location.href='https://discord.gg/VnHuSJvdtE'">Go to Discord</button>
+    </section>
 
-header {
-    background-color: #2c3e50;
-    color: #fff;
-    text-align: center;
-    padding: 50px 20px;
-}
+    <footer>
+        <p>&copy; 2025 GTA Modded Accounts</p>
+    </footer>
 
-header h1 {
-    font-size: 3em;
-    margin-bottom: 20px;
-}
-
-header p {
-    font-size: 1.2em;
-}
-
-.products {
-    display: flex;
-    justify-content: space-around;
-    margin: 40px 0;
-    flex-wrap: wrap;
-}
-
-.product {
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 30%;
-    margin: 10px;
-    padding: 20px;
-    text-align: center;
-}
-
-.product h2 {
-    font-size: 1.8em;
-    margin-bottom: 10px;
-}
-
-.product p {
-    margin-bottom: 20px;
-    font-size: 1.1em;
-}
-
-.buy-btn, .discord-btn {
-    background-color: #3498db;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    font-size: 1.2em;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.buy-btn:hover, .discord-btn:hover {
-    background-color: #2980b9;
-}
-
-.contact {
-    text-align: center;
-    margin: 50px 0;
-}
-
-footer {
-    text-align: center;
-    background-color: #2c3e50;
-    color: #fff;
-    padding: 20px;
-}
+    <!-- Ko-fi Floating Button -->
+    <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script>
+    <script type='text/javascript'>
+        kofiwidget2.init('Support me on Ko-fi', '#72a4f2', 'N4N51EQ81S');
+        kofiwidget2.draw();
+    </script>
+</body>
+</html>
