@@ -96,6 +96,15 @@ header p {
     margin-bottom: 20px;
 }
 
+.product img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    object-fit: cover;
+}
+
 footer {
     text-align: center;
     background: linear-gradient(135deg, #4e196c, #8324a8);
