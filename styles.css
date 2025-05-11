@@ -11,13 +11,15 @@ body {
 }
 
 header {
-    background: linear-gradient(45deg, #ff8c00, #ff0080);
+    background: linear-gradient(135deg, #9b4f96, #7e2a6d, #9b4f96, #6a2860);
     background-size: 400% 400%;
-    animation: gradientAnimation 5s ease infinite;
+    animation: gradientAnimation 8s ease infinite;
+    color: #fff;
     text-align: center;
-    color: white;
-    padding: 80px;
-    font-size: 2.5em;
+    padding: 40px 20px; /* Kleinere Höhe */
+    font-size: 2.2em; /* Kleinere Schriftgröße */
+    border-bottom: 3px solid #a945ff;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); /* Leichter Schatten für mehr Tiefe */
 }
 
 @keyframes gradientAnimation {
