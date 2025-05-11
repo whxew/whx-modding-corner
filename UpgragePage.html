@@ -1,53 +1,69 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Thank you for choosing this option</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Join our Discord</title>
   <style>
     body {
-      background-color: #f4f4f4;
-      background-image: url('assets/fancy-cushion.webp'); /* Pfad zum Musterbild */
-      background-repeat: repeat;
-      background-size: auto;
-      color: #fff;
-      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #121212;
+      color: #e0e0e0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .box {
+      background-color: #1f1f1f;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+      padding: 40px;
       text-align: center;
-      padding: 100px 20px;
+      max-width: 500px;
+      width: 90%;
     }
 
     h1 {
-      color: #14e236;
+      font-size: 2.2em;
+      color: #a945ff;
       margin-bottom: 20px;
     }
 
     p {
-      font-size: 18px;
-      margin-bottom: 40px;
+      font-size: 1.1em;
+      color: #ccc;
+      margin-bottom: 30px;
     }
 
     .discord-btn {
-      background-color: #4e196c;
+      background: linear-gradient(135deg, #a945ff, #6c1b9c);
       color: #fff;
-      padding: 15px 30px;
+      padding: 14px 28px;
       border: none;
       border-radius: 8px;
-      font-size: 16px;
-      text-decoration: none;
-      font-weight: bold;
+      font-size: 1.1em;
       cursor: pointer;
+      transition: all 0.3s ease;
+      text-decoration: none;
+      display: inline-block;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.4);
     }
 
     .discord-btn:hover {
-      background-color: #6a258f;
+      background: linear-gradient(135deg, #c065ff, #8225bd);
+      transform: scale(1.05);
     }
   </style>
 </head>
 <body>
-  <h1>Thank you for choosing this option!</h1>
-  <p>1. Join my Discord. 
-  2. Go to the Premium Support/Upgrades.
-  3. Create a ticket and send us your payment confirmation
-  4. Enjoy the result.</p>
-  <a href="https://discord.gg/VnHuSJvdtE" class="discord-btn" target="_blank">To Discord</a>
+  <div class="box">
+    <h1>Join Our Discord</h1>
+    <p>To complete your order or ask questions, please join our Discord server.</p>
+    <a href="https://discord.gg/VnHuSJvdtE" class="discord-btn" target="_blank">Go to Discord</a>
+  </div>
 </body>
 </html>
